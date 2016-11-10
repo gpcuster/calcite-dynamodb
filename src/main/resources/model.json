@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "defaultSchema": "DEMO",
+  "schemas": [
+    {
+      "name": "DEMO",
+      "type": "custom",
+      "factory": "calcite.adapter.dynamodb.DynamoDBSchemaFactory",
+      "operand": {
+        "region": "us-west-2",
+        "meta": "meta",
+        "local": false
+      }
+    }
+  ]
+}
